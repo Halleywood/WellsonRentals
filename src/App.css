@@ -1,0 +1,111 @@
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+  background-color: #E8DCB8 ;
+
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+    width:700px;
+    background-image: url("../public/AZ.png"); 
+    /* Center and scale the image nicely */
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 741px) and (max-width: 900px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+    width:850px;
+    background-image: url("../public/AZ.png"); 
+    /* Center and scale the image nicely */
+    background-position: 50% -100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 901px) and (max-width: 2000px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+    width:100%;
+    background-image: url("../public/AZ.png"); 
+    /* Center and scale the image nicely */
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+
+.top-nav-collapse {
+  background-color: #1F4659 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 2000px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1F4659 !important;
+  }
+}
+
+
+h6 {
+  line-height: 1.7;
+
+}
+.navbar-brand{
+  font-size: 3rem;
+}
+main{
+  padding-top:8rem;
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size: 2.5rem;
+}
+.nav-item{
+  color:#fff;
+  font-size: 2rem;
+}
+
+
+/* 
+
+
+
+h1{
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size:5rem;
+  line-height: 4rem;
+  margin:.5rem;
+
+}
+.row{
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: clamp(min(1vw, 1rem), 1.5em, max(5vw, 5rem));
+  padding:2rem;
+  line-height:2rem;
+  width:100%;
+ 
+}
+p{
+ 
+ margin: 0 auto;
+
+} */ 
