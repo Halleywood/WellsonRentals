@@ -20,13 +20,16 @@ const GlobalStyle = createGlobalStyle`
     body{
         background-color: #dcd7c9;
     }
+
+
+ 
 }
 `
 
 export const Button = styled.button`
     height:2rem;
-    width:6rem;
-    margin:10px;
+    // width:6rem;
+    // margin:10px;
     border-radius:6px;
 `
 export const Description = styled.div`

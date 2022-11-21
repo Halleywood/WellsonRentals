@@ -1,19 +1,23 @@
-import React from 'react'
+import {React, forwardRef} from 'react'
+import {Link} from 'react-router-dom'
 import { ServiceContainer, ServiceTitle, CardDisplay, Cards, Card, HoverCard, CardContainer, CardImg, CardDetails } from './StyledService'
 import houseinside from '../../images/houseinside.jpeg'
 import houseinside5 from '../../images/houseinside5.jpeg'
 import houseinside3 from '../../images/houseinside3.jpeg'
 
 
+const ServicePage = forwardRef((props, ref)=> {
 
+// const newFunction = () =>{
+//   console.log(ref.current.offsetTop)
+//   window.scrollTo(ref.current.offsetTop)
+// }
 
-const ServicePage = () => {
-
-
+//   useEffect(()=>{
+//     window.addEventListener("scroll", newFunction)
+//   })
   return (
-    <div>
-
-      <ServiceContainer>
+      <ServiceContainer ref={ref}>
         <ServiceTitle>Property Managment</ServiceTitle>
         <CardDisplay>
           <Cards>
@@ -28,7 +32,8 @@ const ServicePage = () => {
                   <li>Checkout, Cleaning</li>
                   <li>A longer bullet point for ch length</li>
                 </ul>
-                <button>Learn More</button>
+                <Link to="/propertymanagement"> <button>Learn More</button> </Link>
+               
               </HoverCard>
               <CardContainer>
                 <CardImg src={houseinside} />
@@ -48,7 +53,7 @@ const ServicePage = () => {
                   <li>Bullet Point</li>
                   <li>Something Else You Do</li>
                 </ul>
-                <button>Learn More</button>
+                <Link to="/propertymanagement"> <button>Learn More</button> </Link>
               </HoverCard>
               <CardContainer>
                 <CardImg src={houseinside5} />
@@ -68,7 +73,7 @@ const ServicePage = () => {
                   <li>Bullet Point</li>
                   <li>Something Else You Do</li>
                 </ul>
-                <button>Learn More</button>
+                <Link to="/propertymanagement"> <button>Learn More</button> </Link>
               </HoverCard>
               <CardContainer>
                 <CardImg src={houseinside3} />
@@ -82,9 +87,7 @@ const ServicePage = () => {
 
         </CardDisplay>
       </ServiceContainer>
-
-    </div>
   )
-}
+})
 
 export default ServicePage

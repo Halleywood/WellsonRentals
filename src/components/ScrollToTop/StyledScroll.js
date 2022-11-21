@@ -6,6 +6,7 @@ bottom: 15px;
 right:30px; 
 height:50px; 
 width:50px; 
+z-index: 2;
 border-radius: 50%; 
 border: 2px solid #dcd7c9;
 background-color: #c2c8c6;

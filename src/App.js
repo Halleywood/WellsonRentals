@@ -1,12 +1,10 @@
 
 import React from 'react'
+import { Switch, Route, Routes } from 'react-router-dom'
 import Home from './components/HomePage/Home'
-import AboutPage from './components/AboutPage/AboutPage'
-import ServicePage from './components/ServicePage/ServicePage'
-import RentPage from './components/RentPage/RentPage'
-import ContactPage from './components/ContactPage/ConatctPage'
-import Footer from './components/Footer/Footer'
-import ScrollToTopButton from './components/ScrollToTop/ScrollToTopButton'
+import PropertyManagement from './components/PropertyManagement/PropertyManagement'
+import Rentals from './components/Rentals/Rentals'
+
 
 
 import GlobalStyle from './globalStyles'
@@ -16,14 +14,15 @@ function App() {
 
   return (
     <div>
-      <GlobalStyle/>
-      <Home/>
-      <ScrollToTopButton/>
-      <AboutPage />
-      <ServicePage />
-      <RentPage />
-      <ContactPage />
-      <Footer />
+      <GlobalStyle />
+      <Routes>
+        <Route exact path="/" element={ <Home/>}/>
+
+        <Route exact path="/propertymanagement" element={<PropertyManagement/>}/>
+
+        <Route exact path="Rentals" element={  <Rentals/>}/>
+        
+      </Routes>
     </div>
 
   );

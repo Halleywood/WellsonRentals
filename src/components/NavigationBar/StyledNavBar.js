@@ -117,12 +117,13 @@ export const NavMenuItem = styled.li`
     cursor: pointer;
     list-style: none;
     padding: 20px 2px;
-    position:relative;
+    line-height:2rem;
+    position: relative;
     font-size: 1.5rem;
     &:hover{
         border-bottom: 5px solid #c2c8c6;
         color: white;
-        width:50%;
+        width:100%;
     }
 `
 

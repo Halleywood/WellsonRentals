@@ -70,14 +70,18 @@ export const HoverCard = styled.div`
 
     }
     button{
- 
-        width:60%;
+        width:100%;
+        min-height: 50px;
         border-radius: 20px;
         background-color: #3f4e4f;
         color: yellowgreen;
         border: 2px solid yellowgreen;
-        height:15%;
-        font-size:1.25rem;
+        font-size:1rem;
+    }
+    a{
+        width:70%;
+        padding:1rem;
+        margin-top:1rem;
     }
     &:hover{
         opacity:1;
