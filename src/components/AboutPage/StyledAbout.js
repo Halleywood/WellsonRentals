@@ -1,10 +1,10 @@
-import React from 'react'
 import styled from 'styled-components'
 import { Description } from '../../globalStyles'
 
 
     export const AboutContainer = styled.div`
         display: flex; 
+        min-height:35vh;
         background-color: #966844;
         color: #f5f6f1;
         align-items: center;
@@ -19,9 +19,9 @@ import { Description } from '../../globalStyles'
             flex-direction: column-reverse;
             font-size:1rem;
             & p{
-                font-size:.8rem;
+                font-size:1rem;
                 padding:0.2rem 0.1rem;
-                line-height:1.2rem;
+                line-height:1.5rem;
             }
             
         }

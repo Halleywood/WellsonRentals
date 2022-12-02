@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { createGlobalStyle} from "styled-components";
-import scape3 from './images/scape3.png'
+import treewallpaper from './images/treewallpaper.jpg'
 
 
 export const Container = styled.div`
@@ -13,12 +13,12 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box; 
     padding: 0;
     margin: 0;
-    font-size:20px;
     //font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
-    max-width:100%;
     body{
         background-color: #dcd7c9;
+        background-image: url(${treewallpaper});
+        background-size: cover;
     }
 
 
@@ -27,10 +27,30 @@ const GlobalStyle = createGlobalStyle`
 `
 
 export const Button = styled.button`
-    height:2rem;
-    // width:6rem;
-    // margin:10px;
-    border-radius:6px;
+
+text-transform: uppercase;
+font-weight: 500;
+border: none;
+border-radius: 45px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+text-align: center;
+padding:0.5rem 0.8rem;
+margin: 0.5rem;
+min-height: 1rem;
+align-items: center;
+font-size:.8rem;
+color:#black;
+background-color: #f5f6f1;
+&:hover{
+    background-color: #3f4e4f;
+    color: #f5f6f1;
+    box-shadow: 0px 15px 20px rgba(46, 300, 157, 0.5);
+    color: #fff;
+    transform: translateY(-7px);
+}
 `
 export const Description = styled.div`
         padding:1rem;

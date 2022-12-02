@@ -1,6 +1,7 @@
 import {React, forwardRef} from 'react'
 import {Link} from 'react-router-dom'
-import {RentContainer, RentTitle, RentDisplay, ShortTerm, LongTerm } from './StyledRent'
+import {RentContainer, RentTitle, RentDisplay, ShortTerm, LongTerm, RentButton } from './StyledRent'
+
 
 const RentPage = forwardRef((props, ref) => {
   return (
@@ -17,7 +18,7 @@ const RentPage = forwardRef((props, ref) => {
         </ShortTerm>
         <LongTerm>
           <p>We offer properties with month-to-month leases and long term leases</p>
-          <Link to="/rentals"> <button>See Rentals</button> </Link>
+          <Link to="/rentals"> <RentButton>See Rentals</RentButton> </Link>
           </LongTerm>
       </RentDisplay>
     </RentContainer>

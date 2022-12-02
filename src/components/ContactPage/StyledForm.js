@@ -34,21 +34,37 @@ export const TextArea = styled.textarea`
 
 
 export const FormButton = styled(Button)`
-    border: solid 4px #966844;
-    box-shadow: 2px 4px;
-    margin-bottom:40px;
-    background-color: #dcd7c9;
-    font-weight: bolder;
-    min-width:20%;
-    font-size:1.25rem;
-    height: 2.5rem;
+    font-size:1rem;
+    min-height:0.8rem;
+    border:2px solid #966844;
+    background-color: #966844;
+    color: #fff;
+    min-width:40%;
+    @media screen and (max-width: 480px) {
+        font-size:0.7rem;
+        
+    }
+    &:hover{
+    background-color: #fff;
+    color: black;
+    transform: translateY(0px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    }
+    ${Button}
+   
         `
 
 export const FormErrors = styled.div`
-    font-size: 20px;
+    font-size: 1.2rem;
     color: red;
     width:70%;
     text-align: left;
-    display:none;
     `
 
+export const ThankyouForm = styled.div`
+    background-color:#3f4e4f;
+    font-size: 2rem;
+    padding-top:2rem;
+    color:#dcd7c9;
+    height:30vh;
+`

@@ -1,9 +1,10 @@
 
 import React from 'react'
-import { Switch, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Home from './components/HomePage/Home'
 import PropertyManagement from './components/PropertyManagement/PropertyManagement'
 import Rentals from './components/Rentals/Rentals'
+import LoginPage from './components/Login/LoginPage'
 
 
 
@@ -18,9 +19,11 @@ function App() {
       <Routes>
         <Route exact path="/" element={ <Home/>}/>
 
+        <Route exact path="/login" element={ <LoginPage/> }/>
+
         <Route exact path="/propertymanagement" element={<PropertyManagement/>}/>
 
-        <Route exact path="Rentals" element={  <Rentals/>}/>
+        <Route exact path="/rentals" element={<Rentals/>}/>
         
       </Routes>
     </div>

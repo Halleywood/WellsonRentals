@@ -18,7 +18,7 @@ const ServicePage = forwardRef((props, ref)=> {
 //   })
   return (
       <ServiceContainer ref={ref}>
-        <ServiceTitle>Property Managment</ServiceTitle>
+        <ServiceTitle>Management Services</ServiceTitle>
         <CardDisplay>
           <Cards>
             <Card>
@@ -47,7 +47,7 @@ const ServicePage = forwardRef((props, ref)=> {
                 <h2>Short Term Rentals</h2>
                 <ul>
                   <li>Bullet Point</li>
-                  <li>Something Else You Do</li>
+                  <li>Something Else You Doffwefwefefefewfewfwfwefe</li>
                   <li>Bullet Point</li>
                   <li>Something Else You Do</li>
                   <li>Bullet Point</li>

@@ -18,7 +18,7 @@ export const NavbarContainer = styled.div`
     margin-top:25px;
     @media screen and (max-width: 600px) {
         justify-content: space-between;
-        padding:20px 0px;
+        padding-top:20px;
         margin-top:0;
         border: none;
         border-radius: none;
@@ -83,11 +83,9 @@ export const NavCompanyName=styled.div`
         @media screen and (min-width: 599px){
             display: none;
             }
-         @media screen and (max-width: 366px){
-            font-size: 1.2rem;
-            }
+    
         @media screen and (max-width: 300px){
-                font-size: 1rem;
+                font-size: 1.5rem;
         }
 `
 export const NavMenu = styled.ul`
