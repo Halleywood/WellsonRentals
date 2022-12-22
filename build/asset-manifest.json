@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53f0c336.css",
+    "main.js": "/static/js/main.fc414e19.js",
+    "static/js/787.ea2ad3d8.chunk.js": "/static/js/787.ea2ad3d8.chunk.js",
+    "static/media/aboutphoto8.jpg": "/static/media/aboutphoto8.bafbb7a70370953e8890.jpg",
+    "static/media/treewallpaper.jpg": "/static/media/treewallpaper.3b1fe693408a109dc463.jpg",
+    "static/media/hero9.jpg": "/static/media/hero9.73c7d86bad2a27ac0bb9.jpg",
+    "static/media/hero5semifaded.jpg": "/static/media/hero5semifaded.3cab42f0d1ca660a283d.jpg",
+    "static/media/orangewithtreecamo.jpg": "/static/media/orangewithtreecamo.7b477b74ec18b4ea04df.jpg",
+    "static/media/houseinside.jpeg": "/static/media/houseinside.d999163f0fc7af18e93f.jpeg",
+    "static/media/houseinside5.jpeg": "/static/media/houseinside5.2fde0782877cd6b30463.jpeg",
+    "static/media/made_tommy_black_outline-webfont.woff": "/static/media/made_tommy_black_outline-webfont.e7614bcb5d04538547e6.woff",
+    "static/media/made_tommy_regular_outline-webfont.woff": "/static/media/made_tommy_regular_outline-webfont.ed7d4477288cd9479b6e.woff",
+    "static/media/made_tommy_light_outline-webfont.woff": "/static/media/made_tommy_light_outline-webfont.3f8cb23d11a4c6ed0567.woff",
+    "static/media/houseinside3.jpeg": "/static/media/houseinside3.9b605d0a89303897138b.jpeg",
+    "static/media/made_tommy_black_outline-webfont.woff2": "/static/media/made_tommy_black_outline-webfont.3c3fb2483485dcab8fd1.woff2",
+    "static/media/made_tommy_regular_outline-webfont.woff2": "/static/media/made_tommy_regular_outline-webfont.add29e30cdb7a0a807af.woff2",
+    "static/media/made_tommy_light_outline-webfont.woff2": "/static/media/made_tommy_light_outline-webfont.01849d553b6a8358fc34.woff2",
+    "static/media/made_tommy_regular-webfont.woff": "/static/media/made_tommy_regular-webfont.88ce88b14f30346d6e59.woff",
+    "static/media/made_tommy_thin-webfont.woff": "/static/media/made_tommy_thin-webfont.3e7826bcf87af6d3036b.woff",
+    "static/media/made_tommy_black-webfont.woff": "/static/media/made_tommy_black-webfont.e5d4b15af39e1aaa308d.woff",
+    "static/media/made_tommy_light-webfont.woff": "/static/media/made_tommy_light-webfont.aa93d0de1eb98e656824.woff",
+    "static/media/made_tommy_regular-webfont.woff2": "/static/media/made_tommy_regular-webfont.530b8e510a6072477103.woff2",
+    "static/media/made_tommy_thin-webfont.woff2": "/static/media/made_tommy_thin-webfont.8b29907dd74f28ffa6b3.woff2",
+    "static/media/made_tommy_light-webfont.woff2": "/static/media/made_tommy_light-webfont.8c2bd4790158a55cc19e.woff2",
+    "static/media/made_tommy_black-webfont.woff2": "/static/media/made_tommy_black-webfont.cf0b788845e4966d171d.woff2",
+    "index.html": "/index.html",
+    "main.53f0c336.css.map": "/static/css/main.53f0c336.css.map",
+    "main.fc414e19.js.map": "/static/js/main.fc414e19.js.map",
+    "787.ea2ad3d8.chunk.js.map": "/static/js/787.ea2ad3d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53f0c336.css",
+    "static/js/main.fc414e19.js"
+  ]
+}
