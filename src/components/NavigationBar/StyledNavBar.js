@@ -12,8 +12,8 @@ export const NavbarContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width:90vw;
-    border-bottom: 10px solid #3f4e4f;
+    width:88vw;
+    border-bottom: 6px solid #3f4e4f;
     box-sizing: border-box; 
     margin-top:25px;
     @media screen and (max-width: 600px) {
@@ -45,10 +45,11 @@ export const NavFlexBox2= styled.div`
     }
 `
 export const Link = styled.a`
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         padding: 0rem 1rem;
         cursor: pointer;
         line-height:4rem;
+        font-family: 'tommyblack';
         @media screen and (max-width: 600px) {
             display: none
         }
@@ -63,7 +64,7 @@ export const NavLogo = styled.img`
     width: 5rem;
     height:5rem;
     padding: 0.2rem;
-    @media screen and (max-width: 599px) {
+    @media screen and (max-width: 600px) {
         display: none
     }
     `
@@ -73,18 +74,19 @@ export const MobileIcon = styled.img`
          z-index: 50;
         @media screen and (max-width: 600px){
         display: block;
-        height: 3rem;
-        width:2.5rem;
+        height: 2rem;
         cursor: pointer;
         }
     `
 export const NavCompanyName=styled.div`
-        font-size:1.75rem; 
-        @media screen and (min-width: 599px){
+        font-size:2.25rem; 
+        font-family: 'tommyregular';
+        margin-left:0.5em;
+        @media screen and (min-width: 601px){
             display: none;
             }
     
-        @media screen and (max-width: 300px){
+        @media screen and (max-width: 360px){
                 font-size: 1.5rem;
         }
 `

@@ -2,6 +2,7 @@ import { React, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { FormContainer, StyledForm, TextArea, FormInput, FormErrors, FormButton } from './StyledForm'
 import axios from 'axios'
+import checked from '../../images/checked.png'
 
 const Form = ({ setMessageSent }) => {
 

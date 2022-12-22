@@ -15,15 +15,18 @@ export const ServiceContainer = styled.div`
 `
 export const ServiceTitle = styled.h1`
     color: #dcd7c9; 
-    font-weight: bolder; 
-    font-size: 2rem;
+    font-family: 'tommyregular';
+    font-size: 3rem;
     padding-bottom:1rem;
     flex:1;
     margin: 1rem 0rem;
     border-bottom: 2px solid yellowgreen;
     width:100%;
-    @media screen and (min-width: 520px){
+    @media screen and (max-width: 780px){
         font-size:2rem;
+    }
+    @media screen and (max-width: 400px){
+        font-size:1.5rem;
     }
 `
 export const CardDisplay = styled.div`

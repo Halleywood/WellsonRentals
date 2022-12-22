@@ -1,8 +1,8 @@
 import {React, forwardRef, useState} from 'react'
 import { Nav, NavbarContainer, NavFlexBox1, NavFlexBox2, NavLogo, NavCompanyName, Link, MobileIcon, NavMenu, NavMenuItem } from './StyledNavBar'
 import fakelogo from '../../images/fakelogo.png'
-import hamburgermobilemenu from '../../images/hamburgermobilemenu.png'
-import mobilemenux from '../../images/mobilemenux.png'
+import mobilemenu from '../../images/mobilemenu.png'
+import goback from '../../images/goback.png'
 
 
 
@@ -35,7 +35,7 @@ const NavBar = forwardRef((props, [serviceRef, rentRef, aboutRef, contactRef]) =
         <NavFlexBox2>
           <Link  onClick={()=> scrollToSection(rentRef)}>Rentals</Link>
           <Link onClick={()=> scrollToSection(aboutRef)}>About</Link>
-          <MobileIcon onClick={handleClick} src={ menu ? mobilemenux : hamburgermobilemenu } />
+          <MobileIcon onClick={handleClick} src={ menu ? goback : mobilemenu } />
           <NavMenu menu={menu}>
             {/* {NavLinks.map((link, index) => (
               <NavMenuItem key={index}>

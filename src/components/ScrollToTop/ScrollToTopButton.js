@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { ScrollButton } from './StyledScroll'
-import uparrow from '../../images/uparrow.png'
+import up from '../../images/UP.png'
 
 const ScrollToTopButton = () => {
 
@@ -32,7 +32,7 @@ const ScrollToTopButton = () => {
 
     
     return (
-        <ScrollButton onClick={scrollUp} toTopButtonVisible={toTopButtonVisible}><img src={uparrow} alt="arrow up icon"/></ScrollButton>
+        <ScrollButton onClick={scrollUp} toTopButtonVisible={toTopButtonVisible}><img src={up} alt="arrow up icon"/></ScrollButton>
     )
 }
 

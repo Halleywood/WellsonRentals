@@ -4,7 +4,7 @@ import { Description } from '../../globalStyles'
 
     export const AboutContainer = styled.div`
         display: flex; 
-        min-height:35vh;
+        min-height:30vh;
         background-color: #966844;
         color: #f5f6f1;
         align-items: center;
@@ -12,14 +12,14 @@ import { Description } from '../../globalStyles'
         border-top: 4px solid #c2c8c6;
         border-bottom: 4px solid #c2c8c6;
         p{
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             line-height:2rem;
         }
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 780px) {
             flex-direction: column-reverse;
             font-size:1rem;
             & p{
-                font-size:1rem;
+                font-size:1.25rem;
                 padding:0.2rem 0.1rem;
                 line-height:1.5rem;
             }

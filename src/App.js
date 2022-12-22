@@ -1,5 +1,6 @@
 
 import React from 'react'
+import './App.css';
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/HomePage/Home'
 import PropertyManagement from './components/PropertyManagement/PropertyManagement'

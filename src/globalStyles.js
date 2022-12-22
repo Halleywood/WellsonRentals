@@ -1,33 +1,30 @@
 import styled from "styled-components";
 import { createGlobalStyle} from "styled-components";
 import treewallpaper from './images/treewallpaper.jpg'
+import './App.css'
 
 
 export const Container = styled.div`
     box-sizing: border-box; 
-    
 `;
 
 const GlobalStyle = createGlobalStyle`
+
 *{
+    font-family: 'tommylight';
     box-sizing: border-box; 
     padding: 0;
     margin: 0;
-    //font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     body{
         background-color: #dcd7c9;
         background-image: url(${treewallpaper});
         background-size: cover;
     }
-
-
- 
 }
 `
 
 export const Button = styled.button`
-
 text-transform: uppercase;
 font-weight: 500;
 border: none;

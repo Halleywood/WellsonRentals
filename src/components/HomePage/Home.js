@@ -9,7 +9,7 @@ import RentPage from '../RentPage/RentPage'
 import ContactPage from '../ContactPage/ConatctPage'
 import Footer from '../Footer/Footer'
 import ScrollToTopButton from '../ScrollToTop/ScrollToTopButton'
-
+import rightarrow from '../../images/rightarrow.png'
 
 
 
@@ -27,11 +27,11 @@ const Home = () => {
         <NavBar ref={[serviceRef, rentRef, aboutRef, contactRef]}/>
         <HomeFlexBox>
           <HomeTagLine>Flagstaff Property Management
-            <p>Whether You're Here To Find a Rental or a Renter, Your Home is Where Our Heart is</p>
+            <p>Whether You're Searching For a Rental or a Renter, Your Home is Where Our Heart is</p>
           </HomeTagLine>
           <ButtonContainer>
-            <Link to="/propertymanagement"> <HomeButton>Management Services</HomeButton> </Link>
-            <Link to="/rentals"><HomeButton>Search Rentals</HomeButton> </Link>
+            <Link to="/propertymanagement"> <HomeButton>Management Services <img src={rightarrow} alt="arrow pointing right"/></HomeButton> </Link>
+            <Link to="/rentals"><HomeButton>Search Rentals <img src={rightarrow} alt="arrow pointing right"/></HomeButton> </Link>
             
           </ButtonContainer>
         </HomeFlexBox>

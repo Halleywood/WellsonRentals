@@ -49,33 +49,42 @@ export const HomeFlexBox = styled.div`
    
     `
 export const HomeTagLine = styled.div`
-    font-size:2.25rem;
     flex:1;
     padding:0.8rem;
     margin: .5rem 0rem;
     text-align: center;
+    font-size:3rem;
     p{
-        font-size: 1rem;
+        font-size:1.8rem;
         margin-top: 1rem;
- 
+
+        @media screen and (max-width: 760px) {
+            text-align: left;
+            font-size:1rem;
+        }
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 760px) {
         text-align: left;
-        font-size:1.5rem;
+        font-size:1.8rem;
     }
     
 `
 
 export const HomeButton = styled(Button)`
+    font-size: 1rem;
+    img{
+        margin-left: 2px;
+        width:25px;
+    }
     ${Button}
   
 `
 export const ButtonContainer = styled.div`
     display:flex;
     justify-content: center;
-    align-items:left;
-    min-width:100%;    
-    @media screen and (max-width: 1000px) {
+  
+    width:100%;    
+    @media screen and (max-width: 760px) {
         flex-direction: column;
     }
    

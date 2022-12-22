@@ -19,14 +19,16 @@ export const RentContainer =styled.div`
 export const RentTitle=styled.div`
     margin-top:1rem;
     width:100%;
-    font-size:2rem;
-    line-height: 2rem;
+    font-size:3.5rem;
     padding-bottom:1rem;
     color: #DCD7C9;
-    font-weight:bold;
+    font-family: 'tommyregular';
     border-bottom: 2px solid yellowgreen;
-    @media screen and (max-width: 900px) {
-       font-size:1.8rem;
+    @media screen and (max-width: 780px){
+        font-size:2.5rem;
+    }
+    @media screen and (max-width: 400px){
+        font-size:2rem;
     }
 `
 export const RentDisplay = styled.div`
@@ -78,6 +80,10 @@ export const LongTerm = styled.div`
 export const RentButton=styled(Button)`
      min-height:0.8rem;
      margin:0;
+     img{
+        margin-left: 2px;
+        width:25px;
+    }
     ${Button}
    
 `

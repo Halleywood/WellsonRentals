@@ -10,13 +10,16 @@ export const ContactContainer = styled.div`
 export const ContactTitle = styled.div`
     background-color:#3f4e4f;
     color:#f6f5f1;
+    
     h1{
         font-size: 2.5rem;
         padding-top:2rem;
+        font-family: 'tommyblack';
     }
     p{
         font-size: 1.2rem;
         line-height:2rem;
+        font-family: 'tommyregular';
     }
     a{
         color:#f6f5f1;

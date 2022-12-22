@@ -39,7 +39,7 @@ export const FormButton = styled(Button)`
     border:2px solid #966844;
     background-color: #966844;
     color: #fff;
-    min-width:40%;
+    min-width:25%;
     @media screen and (max-width: 480px) {
         font-size:0.7rem;
         
@@ -50,6 +50,8 @@ export const FormButton = styled(Button)`
     transform: translateY(0px);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     }
+    margin: 2em;
+
     ${Button}
    
         `
