@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Button } from '../../globalStyles'
-import hero5semifaded from '../../images/hero5semifaded.jpg'
 import hero9 from '../../images/hero9.jpg'
 
 
