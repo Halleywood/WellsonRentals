@@ -5,6 +5,8 @@ export const Nav = styled.div`
     display:flex;
     justify-content: center;
     font-weight: bolder;
+    width:100%;
+    border-top: 4px solid #c2c8c6;
 `
 
 
@@ -79,9 +81,9 @@ export const MobileIcon = styled.img`
         }
     `
 export const NavCompanyName=styled.div`
-        font-size:2.25rem; 
+        font-size:2.5rem; 
         font-family: 'tommyregular';
-        margin-left:0.5em;
+        margin-left:0.2em;
         @media screen and (min-width: 601px){
             display: none;
             }

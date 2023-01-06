@@ -17,10 +17,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     overflow-x: hidden;
     body{
-        height:100%;
         background-color: #dcd7c9;
-        background-image: url(${treewallpaper});
-        background-size: cover;
     }
 }
 `

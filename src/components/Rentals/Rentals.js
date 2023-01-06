@@ -1,15 +1,28 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
-import { RentContainer } from './StyledRentalsPage'
+import { RentContainer, Title} from './StyledRentalsPage'
+import MenuBar from '../Rentals/MenuBar'
+import DisplayContentRentals from '../../components/Rentals/DisplayContentRentals'
+import leftarrow1 from '../../images/left1.png'
+
 
 const Rentals = () => {
+  
+  const [menuOption, setMenuOption] = useState(1)
+
+  const setDisplayOption =(option) =>{
+    setMenuOption(option)
+  }
+
   return (
     <RentContainer>
-      <h1>This Page Is Currently Under Construction!</h1>
-      <h6>Please send us an email at <a href="mailto:"> WellsonRentals@gmail.com</a> or call us at <a href="tel:+19283803536">(928) 380-3536</a> to talk about rental options!</h6>
+      <Title>Rentals</Title>
+      <MenuBar setDisplayOption={setDisplayOption}/>
+      <DisplayContentRentals menuOption={menuOption}/>
 
-<Link to="/"> Go Back </Link>  
-</RentContainer>
+      <Link to="/"> <img src={leftarrow1}/><p>Back</p> </Link>  
+
+    </RentContainer>
   )
 }
 

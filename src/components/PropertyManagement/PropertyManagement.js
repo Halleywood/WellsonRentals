@@ -4,6 +4,7 @@ import {PropertyContainer, Title, Overlap, Content} from './StyledPropertyMan'
 import SideBar from '../PropertyManagement/SideBar'
 import DisplayContent from './DisplayContent'
 import fakelogo from '../../images/fakelogo.png';
+import leftarrow1 from '../../images/left1.png'
 
 const PropertyManagement = () => {
 
@@ -18,7 +19,7 @@ const PropertyManagement = () => {
       <Title>Property Management Services</Title>
       <SideBar setDisplayOption={setDisplayOption}/>
       <DisplayContent menuOption = {menuOption}/>
-      <Link to="/">Return</Link>
+      <Link to="/"><img src={leftarrow1}/><p>Back</p></Link>
 
 
     </PropertyContainer>
