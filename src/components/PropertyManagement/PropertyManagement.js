@@ -1,12 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
-import {PropertyContainer} from './StyledPropertyMan'
+import {PropertyContainer, Title, Overlap, Content} from './StyledPropertyMan'
+import SideBar from '../PropertyManagement/SideBar'
+import DisplayContent from './DisplayContent'
+import fakelogo from '../../images/fakelogo.png';
 
 const PropertyManagement = () => {
+
+  const [menuOption, setMenuOption] = useState(1)
+
+  const setDisplayOption =(option) =>{
+    setMenuOption(option)
+  }
+
   return (
     <PropertyContainer>
-      <h1>Our Full Property Managment Page is currently under construction!</h1>
-      <h6>Please send us an email at <a href="mailto:"> WellsonRentals@gmail.com</a> or call us at <a href="tel:+19283803536">(928) 380-3536</a> to set up something right now</h6>
+      <Title>Property Management Services</Title>
+      <SideBar setDisplayOption={setDisplayOption}/>
+      <DisplayContent menuOption = {menuOption}/>
       <Link to="/">Return</Link>
 
 

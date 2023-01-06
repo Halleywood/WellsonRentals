@@ -1,37 +1,26 @@
 import styled from 'styled-components'
 
 export const PropertyContainer = styled.div`
-margin:0 auto;
-margin-top:4rem;
-width:75%;
-justify-content: center;
-background-color: #966844;
-background-size: cover;
-background-position: bottom;
-border-bottom: 4px solid #c2c8c6;
-min-height:70vh;
-display: flex; 
-flex-direction: column;
-align-items: center;
+height: 100vh;
+background-color: #dcd7c9;
 text-align: center;
-h1{
-    font-size:2rem;
-    padding:2rem;
-    color: #f5f6f1;
-}
-h6{
-    padding: 2rem;
-    color: #2c3639;
-}
+display: flex;
+flex-direction: column;
 
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 1rem;
-       
+`
+export const Title=styled.div`
+    font-family: 'tommyregular';
+    font-size:4rem;
+    color: #966844;
+    padding:1rem;
+    @media screen and (max-width: 1000px) {
+        font-size:3rem;
     }
-    h6{
-        font-size: 0.7rem;
-        padding:1rem;
+    @media screen and (max-width: 700px) {
+        font-size:2.0rem;
     }
-}
+    
+`
+export const SideBar=styled.div`
+    border-right: 4px solid #966844;
 `
