@@ -4,16 +4,25 @@ import {Button} from '../../globalStyles'
 export const LoginContainer = styled.div`
 background-color: #3f4e4f;
 height:100vh;
-padding:5rem 2rem;
 display:flex;
 flex-direction: column;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 a{
     color: #f5f6f1;
     text-decoration: none;
     font-size: 1.5rem;
-    padding:1rem;
+
+   
+}
+p{
+    display: inline-block;
+    margin-left: 0.5rem;
+    max-height:100%;
+}
+.arrow{
+    width:2rem;
+  
 }
 `
 export const FormContainer = styled.div`
@@ -30,15 +39,19 @@ export const FormContainer = styled.div`
         width:80vw;
     }
 `
+
 export const FormFlex1 = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 50%;
+    position: relative;
     @media screen and (min-width: 760px) {
         flex:60%;
+        
      }
+  
     
 `
 export const FormFlex2 = styled.div`
@@ -48,30 +61,32 @@ export const FormFlex2 = styled.div`
     justify-content: center;
     p{
         color: #f5f6f1;
-        padding-bottom: 1rem;
-    }
-    @media screen and (min-width: 760px) {
-       padding: 1rem;
+        margin-bottom:0.5rem;
+        max-height:100%;
     }
 `
 export const FormImage=styled.img`
-    height:70%;
+    width:100%;
+   
     @media screen and (max-width: 760px) {
-        height:100%;
+        height:80%;
      }
 `
-export const FormText = styled.p`
-    font-size: 2rem;
-    padding:0.25rem;
+export const FormText=styled.div`
+    position: absolute;
+    bottom: 0; 
+    left: 50;
     color: white;
+    font-size:2rem;
+    @media screen and (min-width: 760px) {
+        display: none;
+      }
 `
 export const Form = styled.div`
    display: flex; 
    flex-direction: column; 
    align-items: center;
-   padding: 0.5rem;
    input{
-    padding: 0.5rem;
     margin: 0.75rem 0rem;
     height: 2.8rem;
     width:100%;
@@ -89,7 +104,6 @@ export const Form = styled.div`
     }
    }
    @media screen and (max-width: 760px) {
-    height:100%;
  }
 `
 export const FormButton=styled(Button)`

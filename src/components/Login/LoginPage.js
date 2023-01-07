@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {LoginContainer, FormContainer, FormFlex1, FormFlex2, FormImage, FormText, Form, FormButton} from './StyledLoginPage'
 import house3 from '../../images/house3.png'
+import leftarrow1 from '../../images/left1.png'
 
 const LoginPage = () => {
   return (
@@ -9,7 +10,7 @@ const LoginPage = () => {
       <FormContainer>
         <FormFlex1>
         <FormImage src={house3}></FormImage>
-        
+        <FormText>Come on in!</FormText>
         </FormFlex1>
         <FormFlex2>
           <Form>
@@ -21,7 +22,7 @@ const LoginPage = () => {
         </FormFlex2>
      
       </FormContainer>
-      <Link to="/">Go Back</Link>
+      <Link to="/"><img className="arrow" src={leftarrow1}/><p>Back</p></Link>
    </LoginContainer>
   )
 }

@@ -43,7 +43,7 @@ export const NavFlexBox2= styled.div`
     justify-content: space-around; 
     @media screen and (max-width: 600px) {
         justify-content: end;
-        margin-left:4rem;
+        margin-left:2rem;
     }
 `
 export const Link = styled.a`
@@ -76,7 +76,8 @@ export const MobileIcon = styled.img`
          z-index: 50;
         @media screen and (max-width: 600px){
         display: block;
-        height: 2rem;
+        height:2rem;
+        width:2rem;
         cursor: pointer;
         }
     `
