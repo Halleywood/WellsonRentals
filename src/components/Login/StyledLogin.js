@@ -5,8 +5,20 @@ export const LoginContainer=styled.div`
     width:100%;
     display:flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
     padding: 0.5rem;
+    @media screen and (max-width: 600px){
+        justify-content: right;
+    }
+
+`
+export const LoginLogo = styled.div`
+    color: white;
+    font-size: 1.85rem;
+    margin-left: 0.5rem;
+    @media screen and (max-width: 600px){
+        display: none;
+    }
 `
 
 export const LoginLinks=styled.div`

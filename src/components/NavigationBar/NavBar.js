@@ -30,7 +30,7 @@ const NavBar = forwardRef((props, [serviceRef, rentRef, aboutRef, contactRef]) =
           <Link onClick={()=> scrollToSection(contactRef)}>Contact</Link>
           <Link onClick={()=> scrollToSection(serviceRef)}>Services</Link>
         </NavFlexBox1>
-        <NavCompanyName>Welson Rentals</NavCompanyName>
+        <NavCompanyName>Wellson Rentals</NavCompanyName>
         <NavLogo src={fakelogo} />
         <NavFlexBox2>
           <Link  onClick={()=> scrollToSection(rentRef)}>Rentals</Link>

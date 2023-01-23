@@ -79,7 +79,7 @@ export const LongTerm = styled.div`
     `
 export const RentButton=styled(Button)`
      min-height:0.8rem;
-     margin:0;
+     margin-top:0.9rem;
      img{
         margin-left: 2px;
         width:25px;

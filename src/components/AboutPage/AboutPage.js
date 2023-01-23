@@ -10,8 +10,7 @@ const AboutPage = forwardRef((props, ref) => {
     <AboutContainer ref={ref}>
       {/* <Photos src={aboutphoto8} alt={"photos display here"}/> */}
       <UsDescription>
-        <p> This is a substantial paragraph about us. Why we got into property management, our company goals and words to live by. Why we're who you want to work with </p>
-        <p>Cute photos can be slide show next door. Considering adding a title to this page section? </p>
+        <p> We're a a local family with experience renting, remodeling, and owning property in Flagstaff. We bought and remodeled the house we first rented together, and have been managing property around town for several years. We understand the struggle living in this quaint little town and nobody wants to see you succeed more than us! We are here to help your property become passive income and we are here to connect you to successful renters and fullfill their living needs too. </p>
       </UsDescription>
     </AboutContainer>
     )

@@ -67,13 +67,16 @@ export const HoverCard = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding:2rem 0rem;
-    font-size:1rem;
     h2{
         color: yellowgreen;
     }
-    p{
-        line-spacing:1.2rem;
+    ul{
+        list-style: inside;
+    }
+    li{
+        font-size:1.25rem;
+        padding-top:0.5rem;
+        text-decoration: bullet;
     }
     button{
         padding:0.5rem 1rem;
@@ -82,8 +85,6 @@ export const HoverCard = styled.div`
         color: yellowgreen;
         border: 2px solid yellowgreen;
         font-size:1.2rem;
-
-
     }
     a{
         width:70%;

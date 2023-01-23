@@ -10,15 +10,13 @@ const RentPage = forwardRef((props, ref) => {
       <RentTitle>Rentals </RentTitle>
       <RentDisplay>
         <ShortTerm>
-          <p> We have a variety of places available directly on Air B&B which you can access directly here:</p>
+          <p> Directly access our Airbnb properties here:</p>
           <ul>
-          <li><a href="/#">Air B & B Link/Title Here</a></li>
-          <li><a href="/#">Air B & B Link/Title Here</a></li>
-          <li><a href="/#">Air B & B Link/Title Here</a></li>
+          <li><a href="https://www.airbnb.com/rooms/53967185?check_in=2023-03-05&check_out=2023-03-25&guests=1&adults=1&s=67&unique_share_id=ca53811f-6d40-4e87-a7a4-f3a78cbc08a8">Lovely 1-Bedroom Ski Chalet</a></li>
           </ul>
         </ShortTerm>
         <LongTerm>
-          <p>We offer properties with month-to-month leases and long term leases</p>
+          <p>Looking for a home to rent? We have short term and long term leasing options available</p>
           <Link to="/rentals"> <RentButton>See Rentals <img src={rightarrow} alt="arrow pointing right"/></RentButton> </Link>
           </LongTerm>
       </RentDisplay>

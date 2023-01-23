@@ -30,7 +30,6 @@ const ServicePage = forwardRef((props, ref)=> {
                   <li>Lease Signing</li>
                   <li>Deposit Collection</li>
                   <li>Checkout, Cleaning</li>
-                  <li>A longer bullet point for ch length</li>
                 </ul>
                 <Link to="/propertymanagement"> <button>Learn More</button> </Link>
                
@@ -43,18 +42,19 @@ const ServicePage = forwardRef((props, ref)=> {
               </CardDetails>
             </Card>
             <Card>
-              <HoverCard>
+            <HoverCard>
                 <h2>Short Term Rentals</h2>
                 <ul>
-                  <li>Bullet Point</li>
-                  <li>Something Else You Doffwefwefefefewfewfwfwefe</li>
-                  <li>Bullet Point</li>
-                  <li>Something Else You Do</li>
-                  <li>Bullet Point</li>
-                  <li>Something Else You Do</li>
+                <li>Handling inquiries and bookings</li>
+                <li>Process payments</li>
+                <li>Cleaning and Upkeep</li>
+                <li>Handle maintainence and repairs</li>
                 </ul>
                 <Link to="/propertymanagement"> <button>Learn More</button> </Link>
+               
               </HoverCard>
+
+
               <CardContainer>
                 <CardImg src={houseinside5} />
               </CardContainer>
@@ -66,12 +66,12 @@ const ServicePage = forwardRef((props, ref)=> {
               <HoverCard>
                 <h2>a La Carte Services</h2>
                 <ul>
-                  <li>Bullet Point</li>
-                  <li> Bullet Point that is mch longer for ch length</li>
-                  <li>More Bullet Points</li>
-                  <li>Something Else You Do</li>
-                  <li>Bullet Point</li>
-                  <li>Something Else You Do</li>
+                  <li>Vacation Rental Start-up Services</li>
+                  <li>Home Repairs</li>
+                  <li>Property Photography</li>
+                  <li>Installing Keyless Entry</li>
+                  <li>Installing Security Cameras</li>
+                  <li>Optimizing Design and Furnishings</li>
                 </ul>
                 <Link to="/propertymanagement"> <button>Learn More</button> </Link>
               </HoverCard>
