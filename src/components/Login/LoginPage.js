@@ -9,7 +9,7 @@ const LoginPage = () => {
    <LoginContainer>
       <FormContainer>
         <FormFlex1>
-        <FormImage src={house3}></FormImage>
+        <FormImage src={house3} alt="image of a house"></FormImage>
         <FormText>Come on in!</FormText>
         </FormFlex1>
         <FormFlex2>
@@ -22,7 +22,7 @@ const LoginPage = () => {
         </FormFlex2>
      
       </FormContainer>
-      <Link to="/"><img className="arrow" src={leftarrow1}/><p>Back</p></Link>
+      <Link to="/"><img className="arrow" src={leftarrow1} alt="arrow pointing left"/><p>Back</p></Link>
    </LoginContainer>
   )
 }

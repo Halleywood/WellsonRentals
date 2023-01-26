@@ -35,7 +35,7 @@ const ServicePage = forwardRef((props, ref)=> {
                
               </HoverCard>
               <CardContainer>
-                <CardImg src={houseinside} />
+                <CardImg src={houseinside} alt="image of corner of a house with a window"/>
               </CardContainer>
               <CardDetails>
                 <h3> Long Term Rentals</h3>
@@ -56,7 +56,7 @@ const ServicePage = forwardRef((props, ref)=> {
 
 
               <CardContainer>
-                <CardImg src={houseinside5} />
+                <CardImg src={houseinside5} alt="image of fireplace in a house"/>
               </CardContainer>
               <CardDetails>
                 <h3> Short Term Rentals</h3>
@@ -76,7 +76,7 @@ const ServicePage = forwardRef((props, ref)=> {
                 <Link to="/propertymanagement"> <button>Learn More</button> </Link>
               </HoverCard>
               <CardContainer>
-                <CardImg src={houseinside3} />
+                <CardImg src={houseinside3} alt="image of nook in house with wall decorations"/>
               </CardContainer>
               <CardDetails>
                 <h3> A La Carte </h3>

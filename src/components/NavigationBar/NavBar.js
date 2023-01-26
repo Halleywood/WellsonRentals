@@ -31,11 +31,11 @@ const NavBar = forwardRef((props, [serviceRef, rentRef, aboutRef, contactRef]) =
           <Link onClick={()=> scrollToSection(serviceRef)}>Services</Link>
         </NavFlexBox1>
         <NavCompanyName>Wellson Rentals</NavCompanyName>
-        <NavLogo src={fakelogo} />
+        <NavLogo src={fakelogo} alt="Bold W small logo symbol"/>
         <NavFlexBox2>
           <Link  onClick={()=> scrollToSection(rentRef)}>Rentals</Link>
           <Link onClick={()=> scrollToSection(aboutRef)}>About</Link>
-          <MobileIcon onClick={handleClick} src={ menu ? goback : mobilemenu } />
+          <MobileIcon onClick={handleClick} src={ menu ? goback : mobilemenu } alt="hamburger/three bar menu once clicked makes looping arrow to go back"/>
           <NavMenu menu={menu}>
             {/* {NavLinks.map((link, index) => (
               <NavMenuItem key={index}>
